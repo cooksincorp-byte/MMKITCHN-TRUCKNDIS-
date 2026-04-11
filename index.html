@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMKITCHN&TRUCKNDIS Dispatch | Less Stress. More Loads.</title>
+    <meta name="description" content="Professional truck dispatch services for owner-operators and small fleets.">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --blue: #0B3D91;
+            --gold: #D4AF37;
+            --black: #0A0A0A;
+            --white: #FFFFFF;
+            --gray: #F4F6F8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--black);
+            background-color: var(--white);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--black);
+            color: var(--white);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo img {
+            height: 60px;
+        }
+
+        .logo h1 {
+            font-size: 1.3rem;
+            color: var(--gold);
+        }
+
+        nav a {
+            color: var(--white);
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(11,61,145,0.8), rgba(11,61,145,0.8)),
+                        url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+            color: var(--white);
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: var(--gold);
+            color: var(--black);
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid var(--white);
+            color: var(--white);
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            color: var(--blue);
+            font-size: 2.2rem;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .service-card {
+            background: var(--gray);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .service-card h3 {
+            color: var(--blue);
+            margin-bottom: 10px;
+        }
+
+        .process {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        .step {
+            padding: 20px;
+        }
+
+        .step span {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--black);
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .pricing {
+            background: var(--gray);
+            text-align: center;
+        }
+
+        .price-box {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .price-box h3 {
+            color: var(--blue);
+        }
+
+        .price {
+            font-size: 2.5rem;
+            color: var(--gold);
+            margin: 10px 0;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        footer {
+            background: var(--black);
+            color: var(--white);
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media(max-width: 768px) {
+            .hero h2 {
+                font-size: 2rem;
+            }
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="container nav">
+        <div class="logo">
+            <img src="logo.png" alt="MMKITCHN&TRUCKNDIS Logo">
+            <h1>MMKITCHN&TRUCKNDIS Dispatch</h1>
+        </div>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#process">How It Works</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <h2>Truck Dispatch Services Built To Keep You Moving</h2>
+        <p><strong>Less Stress. More Loads.</strong> We help owner-operators and small fleets stay loaded and organized.</p>
+        <a href="tel:9543726508" class="btn">Call 954-372-6508</a>
+        <a href="tel:7542266511" class="btn btn-secondary">Call 754-226-6511</a>
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Services</h2>
+        </div>
+        <div class="services">
+            <div class="service-card">
+                <h3>Load Search & Booking</h3>
+                <p>Finding the best freight opportunities based on your lanes and equipment.</p>
+            </div>
+            <div class="service-card">
+                <h3>Broker Communication</h3>
+                <p>Professional communication and negotiation with brokers.</p>
+            </div>
+            <div class="service-card">
+                <h3>Rate Confirmation Review</h3>
+                <p>Ensuring all load details are accurate before dispatch.</p>
+            </div>
+            <div class="service-card">
+                <h3>Dispatch Coordination</h3>
+                <p>Organizing pickup, delivery, and scheduling for smooth operations.</p>
+            </div>
+            <div class="service-card">
+                <h3>Paperwork Guidance</h3>
+                <p>Helping you stay organized for faster payments.</p>
+            </div>
+            <div class="service-card">
+                <h3>Owner-Operator Support</h3>
+                <p>Dedicated support tailored to independent carriers and small fleets.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works -->
+<section id="process">
+    <div class="container">
+        <div class="section-title">
+            <h2>How It Works</h2>
+        </div>
+        <div class="process">
+            <div class="step">
+                <span>1</span>
+                <h3>Send Truck Details</h3>
+                <p>Provide your truck type, location, and preferred lanes.</p>
+            </div>
+            <div class="step">
+                <span>2</span>
+                <h3>We Search & Communicate</h3>
+                <p>We find loads and coordinate with brokers on your behalf.</p>
+            </div>
+            <div class="step">
+                <span>3</span>
+                <h3>Dispatch Coordination</h3>
+                <p>We organize all details before the truck moves.</p>
+            </div>
+            <div class="step">
+                <span>4</span>
+                <h3>You Stay Focused</h3>
+                <p>Focus on driving while we handle the logistics.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing -->
+<section id="pricing" class="pricing">
+    <div class="container">
+        <div class="section-title">
+            <h2>Pricing</h2>
+        </div>
+        <div class="price-box">
+            <h3>Dispatch Service Rate</h3>
+            <div class="price">8% – 10%</div>
+            <p>Flexible pricing based on your service needs.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+        </div>
+        <p><strong>Business Phone:</strong> 954-372-6508</p>
+        <p><strong>Cell:</strong> 754-226-6511</p>
+        <p><strong>Email:</strong> <a href="mailto:me@kitchnntrukndis.com">me@kitchnntrukndis.com</a></p>
+        <a href="tel:9543726508" class="btn">Get Started Today</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 MMKITCHN&TRUCKNDIS Dispatch. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
